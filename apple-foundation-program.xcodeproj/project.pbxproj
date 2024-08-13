@@ -15,6 +15,7 @@
 		093F6F182C6A5A0800CA7006 /* apple_foundation_programUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093F6F172C6A5A0800CA7006 /* apple_foundation_programUITests.swift */; };
 		093F6F1A2C6A5A0800CA7006 /* apple_foundation_programUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093F6F192C6A5A0800CA7006 /* apple_foundation_programUITestsLaunchTests.swift */; };
 		093F6F292C6AE11E00CA7006 /* PomodoroModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093F6F282C6AE11E00CA7006 /* PomodoroModel.swift */; };
+		093F6F2B2C6AE46E00CA7006 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093F6F2A2C6AE46E00CA7006 /* Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		093F6F172C6A5A0800CA7006 /* apple_foundation_programUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = apple_foundation_programUITests.swift; sourceTree = "<group>"; };
 		093F6F192C6A5A0800CA7006 /* apple_foundation_programUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = apple_foundation_programUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		093F6F282C6AE11E00CA7006 /* PomodoroModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomodoroModel.swift; sourceTree = "<group>"; };
+		093F6F2A2C6AE46E00CA7006 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +138,7 @@
 		093F6F262C6AE0F900CA7006 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				093F6F2A2C6AE46E00CA7006 /* Home.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -280,6 +283,7 @@
 			files = (
 				093F6F292C6AE11E00CA7006 /* PomodoroModel.swift in Sources */,
 				093F6EFE2C6A5A0700CA7006 /* ContentView.swift in Sources */,
+				093F6F2B2C6AE46E00CA7006 /* Home.swift in Sources */,
 				093F6EFC2C6A5A0700CA7006 /* apple_foundation_programApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
