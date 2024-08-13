@@ -14,6 +14,7 @@
 		093F6F0E2C6A5A0800CA7006 /* apple_foundation_programTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093F6F0D2C6A5A0800CA7006 /* apple_foundation_programTests.swift */; };
 		093F6F182C6A5A0800CA7006 /* apple_foundation_programUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093F6F172C6A5A0800CA7006 /* apple_foundation_programUITests.swift */; };
 		093F6F1A2C6A5A0800CA7006 /* apple_foundation_programUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093F6F192C6A5A0800CA7006 /* apple_foundation_programUITestsLaunchTests.swift */; };
+		093F6F292C6AE11E00CA7006 /* PomodoroModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093F6F282C6AE11E00CA7006 /* PomodoroModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		093F6F132C6A5A0800CA7006 /* apple-foundation-programUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "apple-foundation-programUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		093F6F172C6A5A0800CA7006 /* apple_foundation_programUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = apple_foundation_programUITests.swift; sourceTree = "<group>"; };
 		093F6F192C6A5A0800CA7006 /* apple_foundation_programUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = apple_foundation_programUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		093F6F282C6AE11E00CA7006 /* PomodoroModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomodoroModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,8 @@
 		093F6EFA2C6A5A0700CA7006 /* apple-foundation-program */ = {
 			isa = PBXGroup;
 			children = (
+				093F6F272C6AE0FF00CA7006 /* ViewModel */,
+				093F6F262C6AE0F900CA7006 /* View */,
 				093F6EFB2C6A5A0700CA7006 /* apple_foundation_programApp.swift */,
 				093F6EFD2C6A5A0700CA7006 /* ContentView.swift */,
 				093F6EFF2C6A5A0800CA7006 /* Assets.xcassets */,
@@ -127,6 +131,21 @@
 				093F6F192C6A5A0800CA7006 /* apple_foundation_programUITestsLaunchTests.swift */,
 			);
 			path = "apple-foundation-programUITests";
+			sourceTree = "<group>";
+		};
+		093F6F262C6AE0F900CA7006 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		093F6F272C6AE0FF00CA7006 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				093F6F282C6AE11E00CA7006 /* PomodoroModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				093F6F292C6AE11E00CA7006 /* PomodoroModel.swift in Sources */,
 				093F6EFE2C6A5A0700CA7006 /* ContentView.swift in Sources */,
 				093F6EFC2C6A5A0700CA7006 /* apple_foundation_programApp.swift in Sources */,
 			);

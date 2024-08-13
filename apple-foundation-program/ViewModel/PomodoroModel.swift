@@ -7,12 +7,6 @@
 
 import SwiftUI
 
-struct PomodoroModel: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
-}
-
-#Preview {
-    PomodoroModel()
+class PomodoroModel: NSObject, ObservableObject {
+    // MARK : Timer Properties
 }
